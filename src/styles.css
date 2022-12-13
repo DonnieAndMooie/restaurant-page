@@ -92,8 +92,10 @@ li{
 
 .title-container{
     background-color: rgb(0, 255, 200);
-    padding: 0px 300px 0px 300px;
+    width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 img{
@@ -104,4 +106,19 @@ img{
 p{
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+.tabs{
+    display: flex;
+    background-color: rgb(231, 191, 191);
+    margin-bottom: 10px;
+}
+
+.tab{
+    padding: 20px;
+}
+
+.selected{
+    background-color: yellow;
+    color: rgb(46, 50, 255);
 }

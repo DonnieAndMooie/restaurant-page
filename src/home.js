@@ -1,21 +1,9 @@
-import chips from './chips.png';
+
 import fishAndChips from './fish-and-chips.png';
 
 const home = () => {
     const contentDiv = document.getElementById('content');
-    const titleDiv = document.createElement("div");
-    titleDiv.classList.add("title");
-    contentDiv.appendChild(titleDiv);
-    
 
-    const heading = document.createElement("h1")
-    heading.textContent = "Cheerful Chippy"
-    titleDiv.appendChild(heading)
-    const chipsImg = new Image()
-    chipsImg.src = chips
-    titleDiv.append(chipsImg)
-    chipsImg.classList.add("chips")
-    
     const mainDiv = document.createElement("div")
     mainDiv.classList.add("main")
     contentDiv.appendChild(mainDiv)

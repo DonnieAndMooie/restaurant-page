@@ -1,4 +1,3 @@
-import chips from './chips.png';
 import fish from './fish.jpg';
 import chipsMenu from './chipsMenu.jpg'
 import burger from './burger.jpg'
@@ -6,18 +5,6 @@ import pie from './pie.jpg'
 
 const menu = () =>{
     const contentDiv = document.getElementById('content');
-    const titleDiv = document.createElement("div");
-    titleDiv.classList.add("title");
-    contentDiv.appendChild(titleDiv);
-    
-
-    const heading = document.createElement("h1")
-    heading.textContent = "Cheerful Chippy"
-    titleDiv.appendChild(heading)
-    const chipsImg = new Image()
-    chipsImg.src = chips
-    titleDiv.append(chipsImg)
-    chipsImg.classList.add("chips")
 
     const menuTitleDiv = document.createElement("div")
     contentDiv.appendChild(menuTitleDiv)
