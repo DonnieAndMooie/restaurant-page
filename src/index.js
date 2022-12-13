@@ -1,5 +1,8 @@
 import './styles.css';
 import home from './home';
-import menu from './menu'
+import menu from './menu';
+import contact from './contact';
+
 //home()
-menu()
+//menu()
+contact()
