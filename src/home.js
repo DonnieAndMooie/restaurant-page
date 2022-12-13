@@ -2,8 +2,7 @@ import chips from './chips.png';
 import fishAndChips from './fish-and-chips.png';
 
 const home = () => {
-    const currentDocument = document.currentScript.ownerDocument
-    const contentDiv = currentDocument.getElementById('content');
+    const contentDiv = document.getElementById('content');
     const titleDiv = document.createElement("div");
     titleDiv.classList.add("title");
     contentDiv.appendChild(titleDiv);
